@@ -177,11 +177,15 @@ table {
   .button-square:hover {
     background: #303030; }
 
+    .header_bg {
+      margin: 0 auto;
+      padding-top: 5px;
+    }
+
 /* ============================================================ */
 /* Site Header */
 /* ============================================================ */
 .site-header {
-  padding: 100px 0 0;
   overflow: auto;
   text-align: center;
   text-transform: uppercase; }
@@ -469,6 +473,7 @@ table {
     .footer-copyright a:hover {
       color: #FEFEFE; }
 
+
 /* ============================================================ */
 /* NProgress */
 /* ============================================================ */
@@ -511,7 +516,8 @@ table {
     margin: 35px 0; }
 
   .site-header {
-    padding-top: 60px; }
+    padding-top: 60px;
+     margin: 0 auto; }
 
   .site-nav-item {
     display: block;
@@ -620,5 +626,6 @@ table {
 
   .footer-copyright {
     padding: 0 10px; } }
+
 
 /*# sourceMappingURL=style.css.map */
